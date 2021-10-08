@@ -1,6 +1,6 @@
 {
   "name": "@defi-warrior/libs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Defi warrior smart contract libraries",
   "files": [
     "contracts",
@@ -11,7 +11,7 @@
     "url": "https://github.com/Defi-Warrior/defi-warriror-libs.git"
   },
   "publishConfig": {
-    "registry": "http://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org"
   },
   "engines": {
     "node": ">=10"
@@ -35,8 +35,7 @@
     "precompile": "rimraf ./build/",
     "compile": "waffle",
     "pretest": "yarn compile",
-    "test": "mocha",
-    "prepublishOnly": "yarn test"
+    "test": "mocha"
   },
   "license": "GPL-3.0-or-later"
 }
