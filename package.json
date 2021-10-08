@@ -1,8 +1,9 @@
 {
   "name": "@defi-warrior/libs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Defi warrior smart contract libraries",
   "files": [
+    "build",
     "contracts",
     "!contracts/test"
   ],
